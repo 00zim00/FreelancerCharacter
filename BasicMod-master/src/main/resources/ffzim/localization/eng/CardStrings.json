@@ -1,0 +1,624 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "If you change the constructor of your card to use super(cardInfo, true); this will be the card's description when it is upgraded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:Fire": {
+    "NAME": "Fire",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Astral_Fire. NL ${modID}:Level-Up to draw pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Astral_Fire. NL ${modID}:Level-Up to draw pile."
+  },
+  "${modID}:Fira": {
+    "NAME": "Fira",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Astral_Fire. NL ${modID}:Level-Up to draw pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Astral_Fire. NL ${modID}:Level-Up to draw pile."
+  },
+  "${modID}:Firaga": {
+    "NAME": "Firaga",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Astral_Fire. NL ${modID}:Level-Up to draw pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Astral_Fire. NL ${modID}:Level-Up to draw pile."
+  },
+  "${modID}:Blizzard": {
+    "NAME": "Blizzard",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Umbral_Ice. NL ${modID}:Level-Up to discard pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Umbral_Ice. NL ${modID}:Level-Up to discard pile."
+  },
+  "${modID}:Blizzara": {
+    "NAME": "Blizzara",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Umbral_Ice. NL ${modID}:Level-Up to discard pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Umbral_Ice. NL ${modID}:Level-Up to discard pile."
+  },
+  "${modID}:Blizzaga": {
+    "NAME": "Blizzaga",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Umbral_Ice. NL ${modID}:Level-Up to discard pile.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage. NL Gain !M! ${modID}:Umbral_Ice. NL ${modID}:Level-Up to discard pile."
+  },
+  "${modID}:Thunder": {
+    "NAME": "Thunder",
+    "DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! times. NL ${modID}:Level-Up to hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! times. NL ${modID}:Level-Up to hand."
+  },
+  "${modID}:Thundara": {
+    "NAME": "Thundara",
+    "DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! times. NL ${modID}:Level-Up to hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! times. NL ${modID}:Level-Up to hand."
+  },
+  "${modID}:Thundaga": {
+    "NAME": "Thundaga",
+    "DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! times. NL ${modID}:Delevel and gain a 'Lightning Materia' to Hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! times. NL ${modID}:Delevel and gain a 'Lightning Materia' to Hand."
+  },
+  "${modID}:CLDefend": {
+    "NAME": "Arcane Defend",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! !temporary_hp! Temporary HP."
+  },
+  "${modID}:CLStrike": {
+    "NAME": "Dia",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged Damage. NL Deal !M! ${modID}:Ranged damage to ALL other enemies."
+  },
+  "${modID}:Aero": {
+    "NAME": "Aero",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged Damage. NL Half of this damage ignores Block."
+  },
+  "${modID}:ROGStrike": {
+    "NAME": "Double-Strike",
+    "DESCRIPTION": "Deal !D! damage twice."
+  },
+  "${modID}:ROGDefend": {
+    "NAME": "Hide",
+    "DESCRIPTION": "Gain !B! Block and !M! ${modID}:Evasion."
+  },
+  "${modID}:Slow": {
+    "NAME": "Slow",
+    "DESCRIPTION": "Apply ${modID}:Slow. NL Trigger ${modID}:Slow !M! times."
+  },
+  "${modID}:Haste": {
+    "NAME": "Haste",
+    "DESCRIPTION": "At the start of your turn, draw !M! card and gain [E]."
+  },
+  "${modID}:TimeMateria": {
+    "NAME": "Time Materia",
+    "DESCRIPTION": "Choose to either add the ${modID}:Spell 'Haste' or 'Slow' to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add the ${modID}:Spells 'Haste' and 'Slow' to your hand. NL Exhaust."
+  },
+  "${modID}:Demi": {
+    "NAME": "Demi",
+    "DESCRIPTION": "Deal damage equal to 30% of the targets current HP. NL This damage cannot reduce the target's HP below 1.",
+    "UPGRADE_DESCRIPTION": "Deal damage equal to 30% of the targets current HP. NL This damage cannot reduce the target's HP below 1."
+  },
+  "${modID}:MinusStrike": {
+    "NAME": "Minus Strike",
+    "DESCRIPTION": "Deal damage equal to the difference between your Max HP and current HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"Deal damage equal to the difference between your Max HP and current HP. NL Exhaust."
+  },
+  "${modID}:AutoRegan": {
+    "NAME": "Auto-Regan",
+    "DESCRIPTION": "At the start of combat gain !M! #Regan. NL LevelUp to Draw Pile.",
+    "UPGRADE_DESCRIPTION":"At the start of combat gain !M! Regan. NL LevelUp to Draw Pile."
+  },
+  "${modID}:MagicStone": {
+    "NAME": "Magic Stone",
+    "DESCRIPTION": "Unplayable. NL Ethereal.",
+    "UPGRADE_DESCRIPTION":"Unplayable. NL Ethereal. NL Gain 1 Energy when Exhausted."
+  },
+  "${modID}:Luna": {
+    "NAME": "Luna",
+    "DESCRIPTION": "Gain !M! ${modID}:Luna."
+  },
+  "${modID}:Devotion2": {
+    "NAME": "Devotion2",
+    "DESCRIPTION": "Gain ${modID}:Enrage."
+  },
+  "${modID}:BLKDefend": {
+    "NAME": "Mana Shield",
+    "DESCRIPTION": "Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Refund 1."
+  },
+  "${modID}:BLKStrike": {
+    "NAME": "Scathe",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged Damage with a !M!% chance to deal double damage."
+  },
+  "${modID}:Lvl3Def": {
+    "NAME": "LV3 Def-Less",
+    "DESCRIPTION": "Apply !M! !VULNERABLE! Vulnerable and Weak if current floor is divisible by 3. NL Exhaust."
+  },
+  "${modID}:Lvl5Death": {
+    "NAME": "LV5 Death",
+    "DESCRIPTION": "If current floor is divisible by 5, set the enemies HP to 0. NL Does not effect Elites or Bosses. NL Exhaust."
+  },
+  "${modID}:GilToss": {
+    "NAME": "Gil Toss",
+    "DESCRIPTION": "Deal !M1! - !M2! damage. 1 Gold equals +1% damage. NL Lose gold equal to the damage."
+  },
+
+  "${modID}:ThousandStabs": {
+    "NAME": "Thousand Stabs",
+    "DESCRIPTION": "Deal !D! x !M! damage. NL Increase this card's number of attacks by 1 this combat."
+  },
+  "${modID}:Cure": {
+    "NAME": "Cure",
+    "DESCRIPTION": "Gain !M! Temporary_HP. NL ${modID}:Level-Up to Discard."
+  },
+  "${modID}:Cura": {
+    "NAME": "Cura",
+    "DESCRIPTION": "Gain !M! Temporary_HP. NL ${modID}:Level-Up to Discard."
+  },
+  "${modID}:Curaga": {
+    "NAME": "Curaga",
+    "DESCRIPTION": "Gain !M! Temporary_HP. NL ${modID}:Delevel and gain a 'Healing Materia' to Discard."
+  },
+  "${modID}:Draw": {
+    "NAME": "Draw",
+    "DESCRIPTION": "Retain. NL Draw 1 Card. NL ${modID}:Revolving !ffzim:M2!: Undraw.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Draw 2 Cards. NL ${modID}:Revolving !ffzim:M2!: Undraw."
+  },
+  "${modID}:Undraw": {
+    "NAME": "Undraw",
+    "DESCRIPTION": "Retain. NL Place 1 card in your hand on top of your draw pile.  NL ${modID}:Revolving !ffzim:M2!: Draw.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Place 2 cards in your hand on top of your draw pile.  NL ${modID}:Revolving !ffzim:M2!: Draw."
+  },
+  "${modID}:Redraw": {
+    "NAME": "Redraw",
+    "DESCRIPTION": "Shuffle your hand into your draw pile, then draw that many cards. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Shuffle your hand into your draw pile, then draw that many cards (+1)."
+  },
+  "${modID}:Play": {
+    "NAME": "Play",
+    "DESCRIPTION": "Choose a card in hand. NL Play that card, it costs 0. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose a card in hand. NL Play that card, it costs 0."
+  },
+  "${modID}:JOBWhiteMage": {
+    "NAME": "White Mage",
+    "DESCRIPTION": "${modID}:Job. NL Enhance ${modID}:Limit_Break with Eidolon. NL Obtain the Jewel Card."
+  },
+  "${modID}:TheBlackestNight": {
+    "NAME": "The Blackest Night",
+    "DESCRIPTION": "Gain Block equal to 25% of Max HP. NL Exhaust."
+  },
+  "${modID}:LivingShadow": {
+    "NAME": "Living Shadow",
+    "DESCRIPTION": "Add a ${modID}:Shadow copy of every card in your hand. NL Exhaust."
+  },
+  "${modID}:SyphonStrike": {
+    "NAME": "Syphon Strike",
+    "DESCRIPTION": "Deal !D! damage. NL NL If you do unblocked damage, NL Refund !M!."
+  },
+  "${modID}:BladeBarrier": {
+    "NAME": "Blade Barrier",
+    "DESCRIPTION": "Whenever you play an Attack this turn, gain !B! !BLOCK! Block and !M! Thorns. NL At the start of next turn, lose !M! Thorns."
+  },
+  "${modID}:WhiteDraw": {
+    "NAME": "White Draw",
+    "DESCRIPTION": "Draw !M! Card. NL Gain [E] equal to its cost.",
+    "UPGRADE_DESCRIPTION":"Draw !M! Cards. NL Gain [E] equal to the highest cost card drawn."
+  },
+  "${modID}:MentalBreak": {
+    "NAME": "Mental Break",
+    "DESCRIPTION": "Deal !D damage. NL Apply !M! ${modID}:Mental_Break."
+  },
+  "${modID}:ArmorBreak": {
+    "NAME": "Armor Break",
+    "DESCRIPTION": "Deal !D damage. NL Apply !M! ${modID}:Armor_Break."
+  },
+  "${modID}:PowerBreak": {
+    "NAME": "Power Break",
+    "DESCRIPTION": "Deal !D damage. NL Apply !M! Vulnerable."
+  },
+  "${modID}:ShadowWall": {
+    "NAME": "Shadow Wall",
+    "DESCRIPTION": "Gain !B! Block. NL If this is not a ${modID}:Shadow Copy, add a ${modID}:Shadow Copy of 'Shadow Wall' to your hand.",
+    "UPGRADE_DESCRIPTION":"Gain !B! Block. NL If this is not a ${modID}:Shadow Copy, add a ${modID}:Shadow Copy of 'Shadow Wall' to your hand."
+  },
+  "${modID}:Bio": {
+    "NAME": "Bio",
+    "DESCRIPTION": "Apply !M! Poison. NL !ffzim:M2!% chance to apply ${modID}:Venom. NL ${modID}:Level-Up."
+  },
+  "${modID}:Biora": {
+    "NAME": "Biora",
+    "DESCRIPTION": "Apply !M! Poison. NL !ffzim:M2!% chance to apply ${modID}:Venom. NL ${modID}:Level-Up."
+  },
+  "${modID}:Bioga": {
+    "NAME": "Bioga",
+    "DESCRIPTION": "Apply !M! Poison. NL !ffzim:M2!% chance to apply ${modID}:Venom. NL ${modID}:Level-Up."
+  },
+  "${modID}:ElusiveJump": {
+    "NAME": "Elusive Jump",
+    "DESCRIPTION": "Gain !B! Block and !ffzim:M2! ${modID}:Jump. NL Next turn gain !M! Block."
+  },
+  "${modID}:Plunge": {
+    "NAME": "Plunge!",
+    "DESCRIPTION": "Gain !M! ${modID}:Jump. NL ${modID}:Dive. NL Deal !D! plus double ${modID}:Jump amount damage. NL Lose !ffzim:M2! HP.",
+    "UPGRADE_DESCRIPTION":"Gain !M! ${modID}:Jump. NL ${modID}:Dive. NL Deal !D! plus triple ${modID}:Jump amount damage. NL Lose !ffzim:M2! HP."
+  },
+  "${modID}:SelfDestruct": {
+    "NAME": "Self-Destruct",
+    "DESCRIPTION": "End your turn. NL Deal !D! damage to ALL enemies. NL If there are any enemies still alive, die.",
+    "UPGRADE_DESCRIPTION":"End your turn. NL Deal !D! damage to ALL enemies. NL If there are any enemies still alive, die."
+  },
+  "${modID}:Float": {
+    "NAME": "Float",
+    "DESCRIPTION": "Gain !M! ${modID}:Jump. NL ${modID}:Dive. NL Deal !D! plus double ${modID}:Jump amount damage. NL Lose !ffzim:M2! HP.",
+    "UPGRADE_DESCRIPTION":"Gain !M! ${modID}:Jump. NL ${modID}:Dive. NL Deal !D! plus triple ${modID}:Jump amount damage. NL Lose !ffzim:M2! HP."
+  },
+  "${modID}:SwordMagic": {
+    "NAME": "Sword Magic",
+    "DESCRIPTION": "Deal !D! damage. NL Choose and play a ${modID}:Spell Attack card. NL It is not a ${modID}:Spell, costs 0 and deals half damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"Deal !D! damage. NL Choose and play a ${modID}:Spell Attack card. NL It is not a ${modID}:Spell, costs 0 and deals half damage. NL Exhaust."
+  },
+  "${modID}:AutoCounter": {
+    "NAME": "Auto Counter",
+    "DESCRIPTION": "When attacked, play a copy of your ${modID}:Job or basic Strike card against the attacker.",
+    "UPGRADE_DESCRIPTION":"When attacked the next !M! times, play a copy of a your ${modID}:Job or basic Strike card against the attacker."
+  },
+  "${modID}:FleeGil": {
+    "NAME": "Flee Gil",
+    "DESCRIPTION": "When attacked, play a copy of your ${modID}:Job or basic Strike card against the attacker.",
+    "UPGRADE_DESCRIPTION":"When attacked the next !M! times, play a copy of a your ${modID}:Job or basic Strike card against the attacker."
+  },
+  "${modID}:TestCard": {
+    "NAME": "Test Card",
+    "DESCRIPTION": "When !ffzim:R!.",
+    "UPGRADE_DESCRIPTION":"When attacked the next !M! times, play a copy of a your ${modID}:Job or basic Strike card against the attacker."
+  },
+  "${modID}:CherryBlossom": {
+    "NAME": "Test Card",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage to ALL enemies. NL Strength affects this card !M! times."
+  },
+  "${modID}:FireMateria": {
+    "NAME": "Fire Materia",
+    "DESCRIPTION": "!M! / !ffzim:M2! [${modID}:ApRewardIcon] NL Play 'Fire'. NL ${modID}:Eidolon - Ifrit.",
+    "UPGRADE_DESCRIPTION":"!M! / !ffzim:M2! [${modID}:ApRewardIcon]  NL Choose and pay for 'Fire' or 'Fira', play it. NL ${modID}:Eidolon - Ifrit.",
+    "EXTENDED_DESCRIPTION": [
+      "!M! / !ffzim:M2! [${modID}:ApRewardIcon]  NL Choose and pay for 'Fire', 'Fira' or 'Firaga', play it. NL ${modID}:Eidolon - Ifrit."
+    ]
+  },
+  "${modID}:HealingMateria": {
+    "NAME": "Healing Materia",
+    "DESCRIPTION": "[ffzim:StarLeftEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarRightEmptyIcon]  NL !M! / !ffzim:M2!  NL Play 'Cure'. NL Summon ${modID}:Eidolon Ifrit: Hellfire.",
+    "UPGRADE_DESCRIPTION":"!M! / !ffzim:M2!  NL Choose 'Cure' or 'Cura', it plays. NL Summon ${modID}:Eidolon Ifrit: Hellfire.",
+    "EXTENDED_DESCRIPTION": [
+      "[ffzim:StarLeftEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarRightEmptyIcon]  NL ",
+      "[ffzim:StarLeftAPIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarRightEmptyIcon]  NL ",
+      "[ffzim:StarLeftAPIcon] [ffzim:StarMiddleAP3Icon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarRightEmptyIcon]  NL ",
+      "[ffzim:StarLeftAPIcon] [ffzim:StarMiddleAP3Icon] [ffzim:StarMiddleAP3Icon] [ffzim:StarMiddleEmptyIcon] [ffzim:StarRightEmptyIcon]  NL ",
+      "[ffzim:StarLeftAPIcon] [ffzim:StarMiddleAP3Icon] [ffzim:StarMiddleAP3Icon] [ffzim:StarMiddleAP3Icon] [ffzim:StarRightEmptyIcon]  NL ",
+      "[ffzim:StarLeftFullIcon] [ffzim:StarMiddleFullIcon] [ffzim:StarMiddleFullIcon] [ffzim:StarMiddleFullIcon] [ffzim:StarRightFullIcon]  NL ",
+      " / ",
+      "!M! / !ffzim:M2!",
+      "  NL Choose 'Cure' or 'Cura', pay its cost and play it. NL ${modID}:Eidolon - Ifrit.",
+      "  NL Choose 'Cure', 'Cura' or 'Curaga', pay its cost and play it. NL Summon ${modID}:Eidolon Ifrit: Hellfire."
+    ]
+  },
+  "${modID}:IceMateria": {
+    "NAME": "Ice Materia",
+    "DESCRIPTION": "${modID}:Materia, NL Cast 'Fire'. NL Summon ${modID}:Eidolon Ifrit: Hellfire.",
+    "UPGRADE_DESCRIPTION":"${modID}:Materia, NL Cast 'Fira'. NL Summon ${modID}:Eidolon Ifrit: Hellfire."
+  },
+  "${modID}:LightningMateria": {
+    "NAME": "Lightning Materia",
+    "DESCRIPTION": "${modID}:Materia, NL !M! / !ffzim:M2!. NL Cure.",
+    "UPGRADE_DESCRIPTION":"${modID}:Materia, NL !M! / !ffzim:M2! MAX. NL Cure, Cura.",
+    "EXTENDED_DESCRIPTION": [
+      "${modID}:Materia, NL !M! / !ffzim:M2! MAX. NL Cure, Cura, Curaga",
+      "Cure t3est",
+      "Cura t3est",
+      "Curaga t3est"
+    ]
+  },
+  "${modID}:TestMulti": {
+    "NAME": "TestMulti",
+    "DESCRIPTION": "${modID}:Materia, NL !M! / !ffzim:M2!. NL Cure.",
+    "UPGRADE_DESCRIPTION":"${modID}:Materia, NL !M! / !ffzim:M2! MAX. NL Cure, Cura.",
+    "EXTENDED_DESCRIPTION": [
+      "${modID}:Materia, NL !M! / !ffzim:M2! MAX. NL Cure, Cura, Curaga",
+      "Cure t3est",
+      "Cura t3est",
+      "Curaga t3est"
+    ]
+  },
+  "${modID}:Jewel": {
+    "NAME": "Jewel",
+    "DESCRIPTION": "Add a random Materia to your hand."
+  },
+  "${modID}:Garnet": {
+    "NAME": "Garnet",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare.",
+    "UPGRADE_DESCRIPTION":"${modID}:Gem, NL Cast *Cura. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Amethyst": {
+    "NAME": "Amethyst",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Diamond": {
+    "NAME": "Diamond",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Emerald": {
+    "NAME": "Emerald:",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Moonstone":{
+    "NAME": "Moonstone",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Ruby": {
+    "NAME": "Ruby",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Peridot": {
+    "NAME": "Peridot",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Opal": {
+    "NAME": "Opal",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Topaz": {
+    "NAME": "Topaz",
+    "DESCRIPTION": "${modID}:Gem, NL Cast *Cure. NL Summon ${modID}:Eidolon Bahamut: Mega Flare."
+  },
+  "${modID}:Vanish": {
+    "NAME": "Vanish",
+    "DESCRIPTION": "For the next 2 turns, every 2 turns gain 1 Intangible.",
+    "UPGRADE_DESCRIPTION":"Gain 1 Intangible. NL For the next 2 turns, every 2 turns gain 1 Intangible."
+  },
+  "${modID}:FourTonzeWeight": {
+    "NAME": "4-tonze Weight",
+    "DESCRIPTION": "For the next 2 turns, every 2 turns gain 1 Intangible.",
+    "UPGRADE_DESCRIPTION":"Gain 1 Intangible. NL For the next 2 turns, every 2 turns gain 1 Intangible."
+  },
+  "${modID}:Potion": {
+    "NAME": "Potion",
+    "DESCRIPTION": "${modID}:Potion. NL Gain !M! !temporary_hp! Temporary HP. NL Fleeting."
+  },
+  "${modID}:HiPotion": {
+    "NAME": "Hi-Potion",
+    "DESCRIPTION": "${modID}:Potion. NL Gain !M! !temporary_hp! Temporary HP. NL Fleeting."
+  },
+  "${modID}:XPotion": {
+    "NAME": "X-Potion",
+    "DESCRIPTION": "${modID}:Potion. NL Gain !M! !temporary_hp! Temporary HP. NL Fleeting."
+  },
+  "${modID}:MightGuard": {
+    "NAME": "Mighty Guard",
+    "DESCRIPTION": "Gain !M! ${modID}:Shell and !M! ${modID}:Protect."
+  },
+  "${modID}:Shell": {
+    "NAME": "Shell",
+    "DESCRIPTION": "Gain !M! ${modID}:Shell. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"Gain !M! ${modID}:Shell. NL Exhaustive !stslib:ex!."
+  },
+  "${modID}:Protect": {
+    "NAME": "Protect",
+    "DESCRIPTION": "Gain !M! ${modID}:Protect. NL Exhaust",
+    "UPGRADE_DESCRIPTION":"Gain !M! ${modID}:Protect. NL Exhaustive !stslib:ex!."
+  },
+  "${modID}:AddStatus": {
+    "NAME": "Add-Status",
+    "DESCRIPTION": "Exhaust a debuff card from your hand. NL Gain ${modID}:Add-Status, applying the cards eligible debuffs.",
+    "UPGRADE_DESCRIPTION": "Exhaust a debuff card from your hand. NL Gain ${modID}:Add-Status, applying the cards eligible debuffs."
+  },
+  "${modID}:ShakeItOff": {
+    "NAME": "Shake It Off",
+    "DESCRIPTION": "Gain !B! Block. NL If you took damage this or last turn, gain !B! Block again."
+  },
+  "${modID}:RawIntuition": {
+    "NAME": "Raw Intuition",
+    "DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise deal !D! damage."
+  },
+  "${modID}:Shirk": {
+    "NAME": "Shirk",
+    "DESCRIPTION": "Gain !M! Dexterity. NL Lose !ffzim:M2! Strength."
+  },
+  "${modID}:DoubleCast": {
+    "NAME": "Doublecast",
+    "DESCRIPTION": "This turn, your next ${modID}:Spell is played twice.",
+    "UPGRADE_DESCRIPTION": "This turn, your next !M! ${modID}:Spells are played twice."
+  },
+  "${modID}:GroupCast": {
+    "NAME": "Group-cast",
+    "DESCRIPTION": "This turn, your next played ${modID}:Spell card targeting an enemy is duplicated for each remaining enemy, targeting them. NL Exhaust."
+  },
+  "${modID}:MagicStoneRedo": {
+    "NAME": "Magic StoneRedo",
+    "DESCRIPTION": "!M! Magic, !ffzim:M2! magicTwo."
+  },
+  "${modID}:AutoLife": {
+    "NAME": "Auto-Life",
+    "DESCRIPTION": "Startup. NL Gain ${modID}:Auto-Life. NL When ${modID}:Auto-Life triggers, destroy this card.",
+    "UPGRADE_DESCRIPTION":"Startup. NL Shuffle a Magic Stone into your draw pile. NL Gain ${modID}:Auto-Life. NL When ${modID}:Auto-Life triggers, destroy this card."
+  },
+  "${modID}:MagicStoneAutoLife": {
+    "NAME": "MagicStoneAutoLife",
+    "DESCRIPTION": "${modID}:Equip 1. NL !M! remaining for 'Auto-Life'. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"${modID}:Equip 2. NL !M! remaining for 'Auto-Life'. NL Exhaust."
+  },
+  "${modID}:Transpose": {
+    "NAME": "Transpose",
+    "DESCRIPTION": "Exchange your Strength and ${modID}:Magic values.",
+    "UPGRADE_DESCRIPTION": "Exchange your Strength and ${modID}:Magic values."
+  },
+  "${modID}:Focus": {
+    "NAME": "Focus Mind",
+    "DESCRIPTION": "Gain 1 ${modID}:Magic. NL Exhaustive !stslib:ex!.",
+    "UPGRADE_DESCRIPTION": "Gain 1 ${modID}:Magic. NL Persist !stslib:persist!. NL Exhaustive !stslib:ex!."
+  },
+  "${modID}:Ether": {
+    "NAME": "Ether",
+    "DESCRIPTION": "Gain !M! [E] energy. NL Gain cannot exceed maximum energy capacity. NL Fleeting.",
+    "UPGRADE_DESCRIPTION": "Gain !M! [E] energy. NL Gain cannot exceed maximum energy capacity. NL Fleeting."
+  },
+  "${modID}:AttackMimicry": {
+    "NAME": "Attack Mimicry",
+    "DESCRIPTION": "Choose 1 of !M! random basic Attack cards to Play. NL Replace all 'Attack Mimicry' cards into to chosen card for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Choose 1 of !M! random basic Attack cards to Play. NL Replace all 'Attack Mimicry' cards into to chosen card for the rest of combat."
+  },
+  "${modID}:DefendMimicry": {
+    "NAME": "Defend Mimicry",
+    "DESCRIPTION": "Choose 1 of !M! random basic Attack cards to Play. NL Replace all 'Defend Mimicry' cards into to chosen card for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Choose 1 of !M! random basic Attack cards to Play. NL Replace all 'Defend Mimicry' cards into to chosen card for the rest of combat."
+  },
+  "${modID}:Libra": {
+    "NAME": "Libra",
+    "DESCRIPTION": "Draw 1 card per enemy. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card per enemy. NL Apply 1 Vulnerable to ALL enemies. NL Exhaust."
+  },
+  "${modID}:IfritHellfire": {
+    "NAME": "Ifrit: Hellfire",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage to ALL enemies. NL ${modID}:Astral_Fire affects Hellfire 2 times. NL Gain !M! + ${modID}:Materia ${modID}:Astral_Fire.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage to ALL enemies. NL ${modID}:Astral_Fire affects Hellfire 2 times. NL Gain !M! + ${modID}:Materia ${modID}:Astral_Fire."
+  },
+  "${modID}:ShivaDiamondDust": {
+    "NAME": "Shiva: DiamondDust",
+    "DESCRIPTION": "Deal !D! ${modID}:Ranged damage to ALL enemies. NL Trigger your ${modID}:Umbral_Ice. NL Gain !M! + ${modID}:Materia ${modID}:Umbral_Ice.",
+    "UPGRADE_DESCRIPTION": "Deal !D! ${modID}:Ranged damage to ALL enemies. NL Trigger your ${modID}:Umbral_Ice. NL Gain !M! + ${modID}:Materia ${modID}:Umbral_Ice."
+  },
+  "${modID}:RamuhJudgmentBolt": {
+    "NAME": "Ramuh: JudgmentBolt",
+    "DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! + ${modID}:Materia times. NL Deal (!ffzim:M2!) damage to the target equal to the total damage dealt.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Ranged damage to a random enemy !M! + ${modID}:Materia times. NL Deal (!ffzim:M2!) damage to the target equal to the total damage dealt."
+  },
+  "${modID}:Holy": {
+    "NAME": "Holy",
+    "DESCRIPTION": "Deal !ffzim:M2! times X damage (!D!). Damage is Modify based on enemy difficulty: Minions 0.5X, Normal X, Elite 1.5X, Boss 2X.",
+    "UPGRADE_DESCRIPTION": "Deal !ffzim:M2! times X damage(!D!). Damage is Modify based on enemy difficulty: Minions 0.5X, Normal X, Elite 1.5X, Boss 2X."
+  },
+  "${modID}:GoldNeedle": {
+    "NAME": "Gold Needle",
+    "DESCRIPTION": "Retain. NL Remove All Frail."
+  },
+  "${modID}:MaidensKiss": {
+    "NAME": "Maiden's Kiss",
+    "DESCRIPTION": "Retain. NL Remove All Vulnerable."
+  },
+  "${modID}:DriedMeat": {
+    "NAME": "Dried Meat",
+    "DESCRIPTION": "Retain. NL Remove All Weak."
+  },
+  "${modID}:MagicTag": {
+    "NAME": "Magic Tag",
+    "DESCRIPTION": "Choose and remove 1 Curse card in your hand and from your deck."
+  },
+  "${modID}:HolyWater": {
+    "NAME": "Holy Water",
+    "DESCRIPTION": "Exhaust ALL Status cards in your hand."
+  },
+  "${modID}:NullFrail": {
+    "NAME": "Null-Frail",
+    "DESCRIPTION": "Gain 2 ${modID}:Null-Frail."
+  },
+  "${modID}:NullVulnerable": {
+    "NAME": "Null-Vulnerable",
+    "DESCRIPTION": "Gain 2 ${modID}:Null-Vulnerable."
+  },
+  "${modID}:NullWeak": {
+    "NAME": "Null-Weak",
+    "DESCRIPTION": "Gain 2 ${modID}:Null-Weak."
+  },
+  "${modID}:Hilt": {
+    "NAME": "Hilt",
+    "DESCRIPTION": "${modID}:Unique. NL Unplayable. Nl !M!",
+    "FLAVOR": "A solitary hilt, etched with the echoes of heroic deeds, seeks the partner blade whose absence leaves it incomplete."
+  },
+  "${modID}:Blade": {
+    "NAME": "Blade",
+    "DESCRIPTION": "${modID}:Unique. NL Unplayable.",
+    "FLAVOR": "A forgotten blade of valor, seeking the hilt's embrace to awaken its dormant might."
+  },
+  "${modID}:Excalibur": {
+    "NAME": "Excalibur",
+    "DESCRIPTION": "${modID}:Unique. NL Unplayable.",
+    "FLAVOR": "A symbol of heroism, Excalibur shines brightly with the union of its hilt, ready for noble deeds."
+  },
+  "${modID}:ExcaliburII": {
+    "NAME": "Excalibur II",
+    "DESCRIPTION": "${modID}:Unique. NL Unplayable.",
+    "FLAVOR": "The legendary Excalibur II, awakened by your swift journey, foretells a path to victory."
+  },
+  "${modID}:UnicornHorn": {
+    "NAME": "Unicorn Horn",
+    "DESCRIPTION": "Remove ALL Buffs and Debuffs from yourself and ALL enemies."
+  },
+  "${modID}:ItemLore": {
+    "NAME": "Item Lore",
+    "DESCRIPTION": "The first ${modID}:Item card you play each turn is played twice."
+  },
+  "${modID}:ChocoStrike": {
+    "NAME": "Choco Strike",
+    "DESCRIPTION": "Deal !D! plus ${modID}:AttRank (!M!) damage."
+  },
+  "${modID}:ChocoBeak": {
+    "NAME": "Choco Beak",
+    "DESCRIPTION": "Apply !ffzim:M2! plus half of ${modID}:AttRank (!M!) Vulnerable."
+  },
+  "${modID}:ChocoBlast": {
+    "NAME": "Choco Blast",
+    "DESCRIPTION": " Deal !D! plus ${modID}:AttRank (!M!) ${modID}:Ranged damage to ALL enemies."
+  },
+  "${modID}:ChocoUnleash": {
+    "NAME": "Choco Unleash",
+    "DESCRIPTION": "Create a ${modID}:Shadow copy of an Attack card in your hand. The copy's cost is reduced by 50% of your ${modID}:AttRank (!M!)."
+  },
+  "${modID}:ChocoGuard": {
+    "NAME": "Choco Guard",
+    "DESCRIPTION": "Gain !B! plus ${modID}:DefRank (!M!) Block."
+  },
+  "${modID}:Throw": {
+    "NAME": "Throw",
+    "DESCRIPTION": "Choose and Exhaust a card in your hand. NL Deal !D! damage plus additional damage based on its rarity. NL Common 3, Uncommon 6 and Rare 9.",
+    "UPGRADE_DESCRIPTION": "Choose and Exhaust a card in your hand. NL Deal !D! damage plus additional damage based on its rarity. NL Common 4, Uncommon 8 and Rare 12."
+  },
+  "${modID}:Pinwheel": {
+    "NAME": "Pinwheel",
+    "DESCRIPTION": "Deal !D! Ranged damage. NL When Exhausted with the 'Throw' card, 'Throw' deals double additional damage."
+  },
+  "${modID}:RisingSun": {
+    "NAME": "Rising Sun",
+    "DESCRIPTION": "Deal !D! Ranged damage. NL When Exhausted with the 'Throw' card, 'Throw' deals double additional damage."
+  },
+  "${modID}:WingEdge": {
+    "NAME": "Wing Edge",
+    "DESCRIPTION": "Deal !D! Ranged damage. NL When Exhausted with the 'Throw' card, 'Throw' deals double additional damage."
+  },
+  "${modID}:Defend_FF": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:Strike_FF": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:ItemCommand": {
+    "NAME": "Item Command",
+    "DESCRIPTION": "Add 1 random Common ${modID}:Item card to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add 1 random Uncommon ${modID}:Item card to your hand. NL Exhaust."
+  },
+  "${modID}:CombatCommand": {
+    "NAME": "Combat Command",
+    "DESCRIPTION": "If the enemy intends to attack, deal !D! damage. Otherwise gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "If the enemy intends to attack, deal !D! damage. Otherwise gain !B! Block."
+  },
+  "${modID}:RowCommand": {
+    "NAME": "Row Command",
+    "DESCRIPTION": "Gain Back-Row or Front-Row.",
+    "UPGRADE_DESCRIPTION": "Startup. NL Gain Back-Row or Front-Row."
+  },
+  "${modID}:BackRow": {
+    "NAME": "Back-Row",
+    "DESCRIPTION": "Gain Back-Row.",
+    "UPGRADE_DESCRIPTION": "Gain Back-Row."
+  },
+  "${modID}:FrontRow": {
+    "NAME": "Front-Row",
+    "DESCRIPTION": "Gain Front-Row.",
+    "UPGRADE_DESCRIPTION": "Gain Front-Row."
+  }
+}
+
+

@@ -1,0 +1,350 @@
+[
+  {
+    "PROPER_NAME": "This is displayed in the tooltip.",
+    "NAMES": [
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "This is displayed in the tooltip. Note, spaces are not allowed in NAMES. Also, they should be entirely lowercase. For multi-word keywords, see the next one."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "Multiword Keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest should use _ to replace spaces and be entirely lowercase. In card text, you'll use the underscore versions."
+  },
+  {
+    "PROPER_NAME": "Level-Up",
+    "NAMES": [
+      "level-up",
+      "level_up"
+    ],
+    "DESCRIPTION": "When used, this card transforms into an enhanced version for the remainder of combat. If this card is a copy created by another effect or card, it will not trigger #yLevel-Up."
+  },
+  {
+    "PROPER_NAME": "Delevel",
+    "NAMES": [
+      "delevel"
+    ],
+    "DESCRIPTION": "When used, transform this card into its basic version for the remainder of combat. If this card is a copy created by another effect or card, it will not trigger #yDelevel."
+  },
+  {
+    "PROPER_NAME": "De-Level",
+    "NAMES": [
+      "de-level"
+    ],
+    "DESCRIPTION": "Upon use, this card is replaced with an enhanced version for the duration of combat. If this card is a copy created by another effect or card, it will not trigger #yLevel-Up."
+  },
+  {
+    "PROPER_NAME": "Ranged",
+    "NAMES": [
+      "ranged",
+      "RANGED",
+      "Ranged"
+    ],
+    "DESCRIPTION": "Ranged damage does not trigger on hit effects, such as Thorns."
+  },
+  {
+    "ID": "spellToolTip",
+    "PROPER_NAME": "Spell",
+    "NAMES": [
+      "spell",
+      "spells"
+    ],
+    "DESCRIPTION": "#ySpells are not affected by the #yStrength buff."
+  },
+  {
+    "ID": "enrage",
+    "PROPER_NAME": "Enrage",
+    "NAMES": [
+      "${modID}:Enrage",
+      "Enrage",
+      "enrage"
+    ],
+    "DESCRIPTION": "Whenever you play a skill, gain 1 Strength."
+  },
+  {
+  "ID": "job",
+  "PROPER_NAME": "Job",
+  "NAMES": [
+  "${modID}:Job",
+  "Job",
+  "job"
+],
+  "DESCRIPTION": "When a card with Job is obtained, all Starter and Job Strikes and Defends are replaced with Job cards equivalent. NL If the Job card and replaced card are upgraded, then replacement cards are also upgraded. NL The Job card is then removed."
+  },
+  {
+    "PROPER_NAME": "Eidolon",
+    "NAMES": [
+      "eidolon"
+    ],
+    "DESCRIPTION": "Gems second part of the card can be chosen when Trance: Eidolon active "
+  },
+  {
+    "PROPER_NAME": "Revolving",
+    "NAMES": [
+      "${modID}:Revolving",
+      "Revolving",
+      "revolving"
+    ],
+    "DESCRIPTION": "When a revolving card is played, it spawns a specific card in hand. The revolving value of the spawned card becomes that of the played card minus #b1 .  NL When a card has #b0 revolving it becomes unplayable until the start of your next turn."
+  },
+  {
+    "PROPER_NAME": "Jump",
+    "NAMES": [
+      "${modID}:Jump",
+      "Jump",
+      "jump"
+    ],
+    "DESCRIPTION": "You gain a #b1 #yEvasion per #yJump (base-max #b25). Gain #yDive #yReady."
+  },
+  {
+    "PROPER_NAME": "Dive",
+    "NAMES": [
+      "Dive",
+      "dive"
+    ],
+    "DESCRIPTION": "On Play, if you have #yDive #yReady. #yDive activates the played cards additional effects (if any) then removes #yJump and #yDive #yReady."
+  },
+  {
+    "PROPER_NAME": "Armor Break",
+    "NAMES": [
+      "armor break",
+      "armor_break"
+    ],
+    "DESCRIPTION": "At the end of its turn, the target loses half its #yBlock."
+  },
+  {
+    "PROPER_NAME": "Mental Break",
+    "NAMES": [
+      "mental break",
+      "mental_break"
+    ],
+    "DESCRIPTION": "Mental Break targets receive #b50% more damage from #ySpells."
+  },
+  {
+    "ID": "ffzim:shadow",
+    "PROPER_NAME": "Shadow",
+    "NAMES": [
+      "shadow"
+    ],
+    "DESCRIPTION": "If a #yShadow copy of a card would cost HP, you dont lose HP. NL A #yShadow Copy is #yPurged on use."
+  },
+  {
+    "PROPER_NAME": "Venom",
+    "NAMES": [
+      "venom"
+    ],
+    "DESCRIPTION": "At the end of its turn, apply #b3 #yPoison."
+  },
+  {
+    "PROPER_NAME": "Potency",
+    "NAMES": [
+      "potency"
+    ],
+    "DESCRIPTION": "Guarantees the next Spells Potency effect triggers. Or gives 100% chance to it."
+  },
+  {
+    "PROPER_NAME": "Auto-Life",
+    "NAMES": [
+      "auto-life"
+    ],
+    "DESCRIPTION": "When you would die, heal a percent of your Max HP instead and remove this buff."
+  },
+  {
+    "PROPER_NAME": "Luna",
+    "NAMES": [
+      "luna"
+    ],
+    "DESCRIPTION": "After playing an Attack card, gain #b1 Strength. NL Lose ALL Strength gained by Luna when you play a #ySkill or #ySpell."
+  },
+  {
+    "PROPER_NAME": "Evasion",
+    "NAMES": [
+      "evasion"
+    ],
+    "DESCRIPTION": "You gain a #b1% chance per #yEvasion to dodge attacks. NL At the start of your turn lose #yEvasion."
+  },
+  {
+    "PROPER_NAME": "Trance",
+    "NAMES": [
+      "trance"
+    ],
+    "DESCRIPTION": "Every time you take unblocked damage, gain 1 Trance. When you obtain 10 Trance, gain Limit Break."
+  },
+  {
+    "PROPER_NAME": "Limit Break",
+    "NAMES": [
+      "limit_break"
+    ],
+    "DESCRIPTION": "While in Limit Break, deal 150% damage. Leave Limit Break at the start of your next turn. Limit Break can be entered by gaining 10 Trance, consuming 10 Trance in the process. "
+  },
+  {
+    "PROPER_NAME": "Astral Fire",
+    "NAMES": [
+      "astral fire",
+      "astral_fire"
+    ],
+    "DESCRIPTION": "Lose #yUmbral #yIce. Your next attack deals #bX additional damage and you lose #yAstral #yFire."
+  },
+  {
+    "PROPER_NAME": "Umbral Ice",
+    "NAMES": [
+      "umbral ice",
+      "umbral_ice"
+    ],
+    "DESCRIPTION": "Lose #yAstral #yFire. Next time you gain block gain #bX additional block and you lose #yUmbral #yIce."
+  },
+  {
+    "PROPER_NAME": "Shell",
+    "NAMES": [
+      "shell"
+    ],
+    "DESCRIPTION": "Reduces #yDebuffs gained by #b1."
+  },
+  {
+    "PROPER_NAME": "Protect",
+    "NAMES": [
+      "protect"
+    ],
+    "DESCRIPTION": "Reduce damage and HP loss you take by #b50%. "
+  },
+  {
+    "PROPER_NAME": "Add-Status",
+    "NAMES": [
+      "add-status"
+    ],
+    "DESCRIPTION": "When an unblocked non-Spell Attack deals damage, apply #b1 random debuff. Eligible debuffs include #yPoison, #ySlow, #yTrouble, #yVenom, #yVulnerable, or #yWeak."
+  },
+  {
+    "PROPER_NAME": "Magic",
+    "NAMES": [
+      "magic"
+    ],
+    "DESCRIPTION": "Magic adds additional damage to #ySpell attacks."
+  },
+  {
+    "PROPER_NAME": "Slow",
+    "NAMES": [
+      "slow"
+    ],
+    "DESCRIPTION": "Whenever you play a card, the enemy receives #b10% more damage from attacks this turn."
+  },
+  {
+    "PROPER_NAME": "Stop",
+    "NAMES": [
+      "stop"
+    ],
+    "DESCRIPTION": "Can't act for X turns."
+  },
+  {
+    "PROPER_NAME": "Support Ability",
+    "NAMES": [
+      "support ability",
+      "support_ability"
+    ],
+    "DESCRIPTION": "When obtained, transform this card into a 'Magic Stone'. To regain this card, Equip #bX times and remove #ySupport #yAbility."
+  },
+  {
+    "PROPER_NAME": "Equip",
+    "NAMES": [
+      "equip"
+    ],
+    "DESCRIPTION": "On play reduce #yEquip by #bX. Regain and play the original card when #yEquip reaches #b0."
+  },
+  {
+    "PROPER_NAME": "Potion",
+    "NAMES": [
+      "potion"
+    ],
+    "DESCRIPTION": "Acts as a potion, benefiting from all potion relevant relics and effects when used."
+  },
+  {
+    "PROPER_NAME": "Materia",
+    "NAMES": [
+      "materia"
+    ],
+    "DESCRIPTION": "#yMateria transform into #yEidolon cards during #ySummon: #yLimit #yBreak. NL #yEidolon cards gain a bonus depending on the number of #yMateria (or #yEidolon) in your deck."
+  },
+  {
+    "PROPER_NAME": "Item",
+    "NAMES": [
+      "item"
+    ],
+    "DESCRIPTION": "#yItems cannot be upgraded. On use, remove this card from your deck."
+  },
+  {
+    "PROPER_NAME": "Unique",
+    "NAMES": [
+      "unique"
+    ],
+    "DESCRIPTION": "#yUnique cards can only be found once. If you've seen it before and didn't obtain it, it won't reappear this run."
+  },
+  {
+    "PROPER_NAME": "EnSpelled",
+    "NAMES": [
+      "enspelled"
+    ],
+    "DESCRIPTION": "Both #yStrength and #yMagic effect this card."
+  },
+  {
+    "PROPER_NAME": "AttRank",
+    "NAMES": [
+      "attrank"
+    ],
+    "DESCRIPTION": "The total times your 'Chocobo: Attack Stance' card has been upgraded (Max 6)."
+  },
+  {
+    "PROPER_NAME": "DefRank",
+    "NAMES": [
+      "defrank"
+    ],
+    "DESCRIPTION": "The total times your 'Chocobo: Defense Stance' card has been upgraded (Max 6)."
+  },
+  {
+    "PROPER_NAME": "HealRank",
+    "NAMES": [
+      "healrank"
+    ],
+    "DESCRIPTION": "The total times your 'Chocobo: Healer Stance' card has been upgraded (Max 6)."
+  },
+  {
+    "PROPER_NAME": "AP [${modID}:ApRewardIcon]",
+    "NAMES": [
+      "ap"
+    ],
+    "DESCRIPTION": "#yAbility #yPoints, or #yAP [${modID}:ApRewardIcon], is gained as a Combat Reward. More #yAP is gained the higher the Act and difficulty of encounters. When a card gains enough #yAP to reach current #yAP max it #yUpgrades [ffzim:CardLevel]. Some cards can upgrade more then once."
+  },
+  {
+    "PROPER_NAME": "Null-Vulnerable",
+    "NAMES": [
+      "null-vulnerable",
+      "null_vulnerable"
+    ],
+    "DESCRIPTION": "Negates the next #bX #yVulnerable you receive."
+  },
+  {
+    "PROPER_NAME": "Null-Weak",
+    "NAMES": [
+      "null-weak",
+      "null_weak"
+    ],
+    "DESCRIPTION": "Negates the next #bX #yWeak you receive."
+  },
+  {
+    "PROPER_NAME": "Null-Frail",
+    "NAMES": [
+      "null-frail",
+      "null_frail"
+    ],
+    "DESCRIPTION": "Negates the next #bX #yFrail you receive."
+  }
+]
+

@@ -1,0 +1,264 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:HastePower": {
+    "NAME": "Haste",
+    "DESCRIPTIONS": [
+      "At the start of your turn, draw #b",
+      " additional card and gain #b",
+      " additional cards and gain #b",
+      " Energy."
+    ]
+  },
+  "${modID}:ProtectPower": {
+    "NAME": "Protect",
+    "DESCRIPTIONS": [
+      "Reduce ALL damage and HP loss you take by #b50%. NL For the next #b",
+      " round.",
+      " rounds."
+    ]
+  },
+  "${modID}:ShellPower": {
+    "NAME": "Shell",
+    "DESCRIPTIONS": [
+      "Reduces #yDebuffs gained by #b1. NL For the next #b",
+      " round.",
+      " rounds."
+    ]
+  },
+  "${modID}:LoseThornsPower": {
+    "NAME": "Thorns Down",
+    "DESCRIPTIONS": [
+      "At the start of next turn, lose #b",
+      " #yThorns."
+    ]
+  },
+  "${modID}:BladeBarrierPower": {
+    "NAME": "Blade Barrier",
+    "DESCRIPTIONS": [
+      "Whenever you play an attack, gain #b",
+      " Block and #b",
+      " #yThorns."
+    ]
+  },
+  "${modID}:MentalBreakPower": {
+    "NAME": "Mental Break",
+    "DESCRIPTIONS": [
+      "Receives #b50% more damage from #ySpells for #b",
+      "  turn.",
+      "  turns."
+    ]
+  },
+  "${modID}:ArmorBreakPower": {
+    "NAME": "Armor Break",
+    "DESCRIPTIONS": [
+      "At the beginning of your turn, lose half your #yBlock for #b",
+      "  turn.",
+      "  turns."
+    ]
+  },
+  "${modID}:VenomPower": {
+    "NAME": "Venom",
+    "DESCRIPTIONS": [
+      "At the end of its turn, apply #b",
+      "  #yPoison."
+    ]
+  },
+  "${modID}:JumpDodgePower": {
+    "NAME": "Jump",
+    "DESCRIPTIONS": [
+      "MISS!",
+      "You are gaining #b",
+      " #Evasion. Max #b",
+      ""
+    ]
+  },
+  "${modID}:DiveReadyPower": {
+    "NAME": "Dive Ready",
+    "DESCRIPTIONS": [
+      "The next card you Play with #yDive gains the specified additional effect. Remove #yJump and #yDive #yReady."
+    ]
+  },
+  "${modID}:AutolifePower": {
+    "NAME": "Auto-Life",
+    "DESCRIPTIONS": [
+      "When you would die, heal to #b",
+      "% of your Max HP instead and remove this buff."
+    ]
+  },
+  "${modID}:FloatPower": {
+    "NAME": "Float",
+    "DESCRIPTIONS": [
+      "When you would die, heal to #b",
+      "% of your Max HP instead and remove this buff."
+    ]
+  },
+  "${modID}:HighJumpPower": {
+    "NAME": "High Jump",
+    "DESCRIPTIONS": [
+      "When you would die, heal to #b",
+      "% of your Max HP instead and remove this buff."
+    ]
+  },
+  "${modID}:LunaPower": {
+    "NAME": "Luna",
+    "DESCRIPTIONS": [
+      "After playing an Attack card, gain #b",
+      " Strength. NL Lose ALL Strength gained by Luna when you play a Skill or Spell."
+    ]
+  },
+  "${modID}:EvasionPower": {
+    "NAME": "Evasion",
+    "DESCRIPTIONS": [
+      "MISS!",
+      "You have a #b",
+      "% chance to dodge attacks. Max #b",
+      "%"
+    ]
+  },
+  "${modID}:CounterPower": {
+    "NAME": "Auto Counter",
+    "DESCRIPTIONS": [
+      "When attacked the next #b",
+      " time,",
+      " times,",
+      " play a copy of a your Job or Basic Strike against the attacker."
+    ]
+  },
+  "${modID}:TrancePower": {
+    "NAME": "Trance",
+    "DESCRIPTIONS": [
+      "Every time you take unblocked damage, gain #b",
+      " #yTrance. When you obtain #b10 #yTrance, gain #yLimit #yBreak during your active turn."
+    ]
+  },
+  "${modID}:LimitBreakPower": {
+    "NAME": "Limit Break",
+    "DESCRIPTIONS": [
+      "While in #yLimit #yBreak, deal #b",
+      "% damage. Leave Limit Break at the start of your next turn. NL Limit Break is gained by obtaining #b10 #yTrance, consuming #b10 #yTrance in the process."
+    ]
+  },
+  "${modID}:DoubleBlackPower": {
+    "NAME": "Limit Break: Double Black",
+    "DESCRIPTIONS": [
+      "While in ALL #yLimit #yBreak, #ySpell attack cards are played twice."
+    ]
+  },
+  "${modID}:AstralFirePower": {
+    "NAME": "Astral Fire",
+    "DESCRIPTIONS": [
+      "Lose #yUmbral #yIce. Your next attack deals #b",
+      " additional damage and you lose #yAstral #yFire."
+    ]
+  },
+  "${modID}:AstralIcePower": {
+    "NAME": "Astral Ice",
+    "DESCRIPTIONS": [
+      "Lose #yAstral #yFire. Next time you gain block gain #b",
+      " additional block and you lose #yUmbral #yIce."
+    ]
+  },
+  "${modID}:IntangibleBluePower": {
+    "NAME": "Vanish",
+    "DESCRIPTIONS": [
+      "For the next #b",
+      " turn, every #b2 turns gain #b1 #yIntangible.",
+      " turns, every #b2 turns gain #b1 #yIntangible."
+    ]
+  },
+  "${modID}:SelfDestructPower": {
+    "NAME": "Self-Destruct",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal #b",
+      " damage. If there are any enemies still alive, die."
+    ]
+  },
+  "${modID}:CardTrackerPower": {
+    "NAME": "CardTrackerPower",
+    "DESCRIPTIONS": [
+      "You should never see this. Used to keep track of things in combat"
+    ]
+  },
+  "${modID}:AddStatusPower": {
+    "NAME": "Add-Status",
+    "DESCRIPTIONS": [
+      "Whenever a non Spell Attack deals unblocked damage, apply #b1",
+      " Apply #b",
+      " times.",
+      "#yPoison",
+      "#ySlow",
+      "#yTrouble",
+      "#yVenom",
+      "#yVulnerable",
+      "#yWeak"
+
+    ]
+  },
+  "${modID}:TroublePower": {
+    "NAME": "Trouble",
+    "DESCRIPTIONS": [
+      "When it takes unblocked damage, deal damage to ALL other enemies equal to #b",
+      "% of the damage taken."
+    ]
+  },
+  "${modID}:MagicPower": {
+    "NAME": "Magic",
+    "DESCRIPTIONS": [
+      "Increases #ySpell attack damage by #b",
+      "Decreases #ySpell attack damage by #b",
+      "."
+    ]
+  },
+  "${modID}:DoubleCastPower": {
+    "NAME": "Doublecast",
+    "DESCRIPTIONS": [
+      "This turn, your next #ySpell is played twice.",
+      "This turn, your next #b",
+      " #ySpells are played twice."
+    ]
+  },
+  "${modID}:TranceBlackMagePower": {
+    "NAME": "Black Mage",
+    "DESCRIPTIONS": [
+      "Gain you #b1 #yTrance the first time you play a #ySpell each turn."
+    ]
+  },
+  "${modID}:ItemLorePower": {
+    "NAME": "Item Lore",
+    "DESCRIPTIONS": [
+      "The first #yItem card you play each turn is played twice.",
+      "The first #b",
+      " #yItem cards you play each turn are played twice."
+    ]
+  },
+  "${modID}:NullVulnerablePower": {
+    "NAME": "Null-Vulnerable",
+    "DESCRIPTIONS": [
+      "Negates the next #yVulnerable you receive.",
+      "Negates the next #b",
+      " #yVulnerable you receive."
+    ]
+  },
+  "${modID}:NullFrailPower": {
+    "NAME": "Null-Frail",
+    "DESCRIPTIONS": [
+      "Negates the next #yFrail you receive.",
+      "Negates the next #b",
+      " #yFrail you receive."
+    ]
+  },
+  "${modID}:NullWeakPower": {
+    "NAME": "Null-Weak",
+    "DESCRIPTIONS": [
+      "Negates the next #yWeak you receive.",
+      "Negates the next #b",
+      " #yWeak you receive."
+    ]
+  }
+}
+
